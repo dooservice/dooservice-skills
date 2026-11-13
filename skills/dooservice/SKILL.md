@@ -3,7 +3,7 @@ name: dooservice
 description: >-
   Work on Odoo projects hosted on Dooservice through its MCP server
   (mcp.dooservice.sh): read environments, logs, deployments and backups, explain
-  failures with explain_failure, clone production into temporary copies, deploy
+  failures with explain_failure, find why Odoo is slow with explain_slowness, clone production into temporary copies, deploy
   branches, read Odoo data with odoo_search_read, change code in a workspace and
   publish it as a pull request, and propose restores, rollbacks or rebuilds of
   production for an admin to approve. Use whenever a task names Dooservice, one
@@ -23,6 +23,7 @@ a person may do.
 | Connect, or understand a refusal about your connection | `connecting.md` |
 | Find projects and environments; read logs, deployments, backups, jobs | `reading.md` |
 | Something failed: a deployment, a module update, Odoo itself | `failures.md` |
+| Odoo is slow: measure, find the query, add the index | `slowness.md` |
 | Try something without touching production: clone, deploy a branch, rebuild | `working.md` |
 | Change the project's code and open a pull request | `code.md` |
 | Read or change records in an environment's Odoo | `odoo-data.md` |
